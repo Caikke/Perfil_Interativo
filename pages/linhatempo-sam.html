@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linha do tempo - Sam Gellaitry</title>
+    <link rel="stylesheet" href="./../css/style.css">
+<body class="ltempo-sam">
+    <div id="progresso"></div>
+
+    <header id="topo-pagina">
+        <p class="titulo-pagina">Sam Gellaitry</p>
+        <p class="subtitulo-pagina">Linha do tempo da carreira - clique em um ano para ver os detalhes</p>
+        <a class="btn-voltar-home" href="./../home.html">← Voltar</a>
+    </header>
+
+    <main class="timeline">
+
+        <!-- TODO: preencha os anos, títulos e textos com a pesquisa sobre a carreira do Sam.
+             Para criar um evento novo, copie um bloco <article> inteiro.
+             Troque o número em onclick="MostrarDetalhes(N)", em id="det-N" e em id="fonte-N"
+             (os três precisam ter o mesmo número, e ele não pode repetir).
+             Mantenha <div class="detalhes" id="det-N"></div> sem nenhum espaço dentro. -->
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(1)">fev 2015</button>
+            <div class="cartao">
+                <img src="./../media/img/Sam-Gellaitry/EP-Short-Stories.jpg" alt="Sam Gellaitry - descreva a foto">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 1</p>
+                    <p>Resumo curto do evento (início da carreira).</p> -->
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-1"></div>
+                    <div class="fonte" id="fonte-1">
+                        <div class="conteudo-detalhe">
+                            <p>Estreia com o EP "Short Stories", pela Soulection, aos 18 anos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(2)">2015~17</button>
+            <div class="cartao">
+                <img src="./../media/img/Sam-Gellaitry/Escapism-III.jpg" alt="Sam Gellaitry - descreva a foto">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 2</p> -->
+                    <p>Escapism III</p>
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-2"></div>
+                    <div class="fonte" id="fonte-2">
+                        <div class="conteudo-detalhe">
+                            <p>Assina com a XL Recordings e lança a trilogia "Escapism". O terceiro EP saiu em 7 de abril de 2017</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(3)">abr 2019</button>
+            <div class="cartao">
+                <img src="./../media/img/Sam-Gellaitry/Viewfinder_Vol._1_ Phosphene.jpg" alt="Sam Gellaitry - descreva a foto">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 3</p>
+                    <p>Resumo curto do evento.</p> -->
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-3"></div>
+                    <div class="fonte" id="fonte-3">
+                        <div class="conteudo-detalhe">
+                            <p>Lança a mixtape "Viewfinder Vol. 1: Phosphene"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(4)">2021</button>
+            <div class="cartao">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 4</p> -->
+                    <p>Lança o EP "IV", o primeiro com os vocais dele em destaque, e o single “Assumptions” (13 de maio). A data exata do EP varia entre abril e junho</p>
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-4"></div>
+                    <div class="fonte" id="fonte-4">
+                        <div class="conteudo-detalhe">
+                            <p>Vídeoclipe da música "Assumptions"</p>
+                        </div>
+                        <div class="video">
+                            <video controls src="./../media/video/Sam-Gellaitry/Sam_Gellaitry_-_assumptions.mp4"></video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(5)">ago 2022</button>
+            <div class="cartao">
+                <img src="./../media/img/Sam-Gellaitry/Picture-in-My-Mind.jpg" alt="Sam Gellaitry - descreva a foto">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 5</p>
+                    <p>Resumo curto do evento (fase atual).</p> -->
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-5"></div>
+                    <div class="fonte" id="fonte-5">
+                        <div class="conteudo-detalhe">
+                            <p>“Picture in My Mind” com PinkPantheress, a colaboração mais visível dele</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="evento">
+            <button class="ano" onclick="MostrarDetalhes(6)">2025</button>
+            <div class="cartao">
+                <img src="./../media/img/Sam-Gellaitry/Assumptions.jpg" alt="Sam Gellaitry - descreva a foto">
+                <div class="texto">
+                    <!-- <p class="titulo-evento">Título do evento 6</p>
+                    <p>Resumo curto do evento (fase atual).</p> -->
+                    <span class="dica">Clique no ano para ver mais ▾</span>
+                    <div class="detalhes" id="det-6"></div>
+                    <div class="fonte" id="fonte-6">
+                        <div class="conteudo-detalhe">
+                            <p>“Assumptions” explode de novo (maio e junho). Em 7 de novembro sai o álbum de estreia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+    <script src="./../js/linhatempo.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Músicas</title>
+    <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+    <a href="./../home.html" class="btn-voltar-home">⬅ Voltar</a>
+
+    <div class="caixa-play">
+        <!-- Informações da Música -->
+        <img id="capa-album" src="./../media/img/Sam-Gellaitry/Picture-in-My-Mind.jpg" alt="Capa do Álbum">
+        <p id="titulo-musica">Título da Música</p>
+        <p id="nome-artista">Nome do Artista</p>
+
+        <!-- Player Oculto -->
+        <audio id="audio-player" src="./../media/audio/Picture-in-My-Mind-PinkPantheress.mp3"></audio>
+
+        <!-- Faixa de Progresso -->
+        <div class="faixa-execucao">
+            <span id="tempo-atual">0:00</span>
+            <input type="range" id="barra-progresso" value="0" max="100">
+            <span id="tempo-total">0:00</span>
+        </div>
+
+        <!-- Botões de Controle -->
+        <div class="controles-musica">
+            <button id="btn-voltar">Voltar</button>
+            <button id="btn-play">Play</button>
+            <button id="btn-pular">Pular</button>
+        </div>
+
+        <!-- Lista de Músicas (Playlist) -->
+        <div class="playlist-container">
+            <ul id="lista-playlist">
+                <!-- As tags <li> serão geradas pelo JavaScript -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="./../js/musicas.js"></script>
+</body>
+
+</html>

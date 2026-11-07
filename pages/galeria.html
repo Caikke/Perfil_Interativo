@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Acervo Ayrton Senna</title>
+  <link rel="stylesheet" href="./../css/style.css">
+</head>
+
+<body>
+  <a href="./../home.html" class="btn-voltar-home">⬅ Voltar</a>
+
+  <div class="bloco-galeria-senna">
+    <p class="titulo-galeria">Acervo <span class="destaque-senna">Ayrton Senna</span></p>
+
+    <!-- Linha onde os vídeos vão aparecer lado a lado -->
+    <div class="faixa-videos" id="lista-videos-senna">
+      <!-- O JavaScript vai injetar as capas dos vídeos aqui -->
+    </div>
+  </div>
+
+  <!-- TELA DO VÍDEO (A tela escura que abre por cima) -->
+  <div id="modal-video" class="modal-oculto">
+    <div class="conteudo-modal">
+      <button id="btn-fechar-modal">⬅ Voltar</button>
+      <p id="titulo-video-modal">Título do Vídeo</p>
+      <video id="player-senna" controls></video>
+    </div>
+  </div>
+
+  <script src="./../js/galeria.js"></script>
+</body>
+
+</html>
