@@ -183,25 +183,29 @@ body {
 /* ==================
    BIOGRAFIA
    ==================*/
-#topo {
-    justify-content: space-around;
+.titulo-biografia {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 80px;
+    line-height: 0.2;
+    justify-content: space-around;
+    text-align: right;
+    margin-left: auto;
+    margin-top: -10px;
 }
 
 /* ==================
    BIOGRAFIA - Cor Sam
    ==================*/
 .bio-sam #topo {
-
     color: #FF007F;
 }
 
 .bio-sam {
-    margin: 40px;
-    font-size: 15px;
+    margin: 0 80px;
+    font-size: 20px;
     color: #F4F4F9;
     background: #0B0C10 fixed;
+    text-align: justify;
 }
 
 
@@ -213,10 +217,11 @@ body {
 }
 
 .bio-ayrton {
-    margin: 40px;
-    font-size: 15px;
+    margin: 0 80px;
+    font-size: 20px;
     color: #FFD700;
     background: #0B0C10 fixed;
+    text-align: justify;
 }
 
 /* =========================================
